@@ -1,4 +1,39 @@
 .profile {
-    width: 30%;
+    width: 400px;
     margin: auto;
+    background-color:#E0FFFF;
 };
+
+
+
+.description {
+    margin-bottom:  15px ;
+}
+
+.avatar {
+    margin-bottom: 15px;
+}
+
+.name, .tag, .location {
+    text-align: center;
+    color:#696969;
+
+}
+.name {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #00008B;
+}
+.tag {
+    margin-bottom: 10px;
+}
+.stats {
+    display: flex;
+}
+.stats > li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: calc(100% / 3);
+}

@@ -1,7 +1,12 @@
 import PropTypes from 'prop-types';
 import s from './Profile.module.css'
 
-function Profile({ username, tag, location, avatar = "https://cdn-icons-png.flaticon.com/512/1077/1077012.png", stats }) {
+function Profile(
+  { username,
+  tag,
+  location,
+  avatar = "https://cdn-icons-png.flaticon.com/512/1077/1077012.png",
+    stats }) {
     return (
         <div className={s.profile}>
   <div className="description">

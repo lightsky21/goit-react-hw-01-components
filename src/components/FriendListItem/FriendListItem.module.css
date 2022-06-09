@@ -1,0 +1,16 @@
+.status {
+    display: inline-flex;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.red {
+    composes: status;
+    background-color: red;
+}
+
+.green {
+    composes: status;
+    background-color: green;
+}

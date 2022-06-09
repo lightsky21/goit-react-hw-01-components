@@ -33,7 +33,7 @@ function Profile({ username, tag, location, avatar = "https://cdn-icons-png.flat
     )
 }
 
-export default Profile;
+
 
 Profile.propTypes = {
     username: PropTypes.string.isRequired,
@@ -42,3 +42,5 @@ Profile.propTypes = {
     avatar: PropTypes.string,
     stats: PropTypes.object,
 }
+
+export default Profile;

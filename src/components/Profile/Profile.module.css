@@ -4,36 +4,45 @@
     border-radius: 5px;
     background-color: #FFFFFF;
     margin-bottom: 50px;
-};
+}
+
+
 
 
 .avatar {
     margin-bottom: 15px;
 }
 
-.name, .tag, .location {
+.name,
+.tag,
+.location {
     text-align: center;
-    color:#696969;
+    color: #696969;
 
 }
+
 .name {
     font-size: 20px;
     margin-bottom: 10px;
     font-weight: 600;
     color: black;
 }
+
 .tag {
     margin-bottom: 10px;
 }
+
 .location {
     padding-bottom: 15px;
 }
+
 .stats {
     display: flex;
     margin-right: -1px;
     background-color: #FFFAFA;
 }
-.stats > li {
+
+.stats>li {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,10 +51,12 @@
     flex-basis: calc(100% / 3);
     border: #C0C0C0 1px solid;
 }
+
 .label {
     margin-bottom: 5px;
-    color:#696969;
+    color: #696969;
 }
+
 .quantity {
     color: black;
     font-size: 20px;

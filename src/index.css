@@ -36,7 +36,7 @@ button {
 }
 
 img {
- 
+
   max-width: 100%;
 }
 
@@ -46,18 +46,21 @@ td {
 }
 
 th {
-  
-    border: #FFFFFF 2px solid;
+
+  border: #FFFFFF 2px solid;
   color: #FFFFFF;
-    
+
 }
+
 td {
-border:#FFF0F5 2px solid;
-color: #696969;
+  border: #FFF0F5 2px solid;
+  color: #696969;
 }
+
 thead {
   background-color: #1E90FF;
 }
+
 tbody tr:nth-child(odd) {
   background-color: #FFFFFF;
 }

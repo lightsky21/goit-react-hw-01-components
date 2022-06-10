@@ -5,8 +5,8 @@ function FriendListItem({ avatar, name, isOnline }) {
   return (
     <>
       <span className={isOnline ? s.red : s.green}></span>
-      <img className="avatar" src={avatar} alt="User avatar" width="48" />
-      <p className="name">{name}</p>
+      <img className={s.avatar} src={avatar} alt="User avatar" width="48" />
+      <p className={s.name}>{name}</p>
     </>
   );
 }

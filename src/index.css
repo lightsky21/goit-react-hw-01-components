@@ -7,7 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #DCDCDC;
+  background-color: #D3D3D3;
 }
 
 code {
@@ -38,4 +38,30 @@ button {
 img {
  
   max-width: 100%;
+}
+
+th,
+td {
+  padding: 20px;
+}
+
+th {
+  
+    border: #FFFFFF 2px solid;
+  color: #FFFFFF;
+    
+}
+td {
+border:#FFF0F5 2px solid;
+color: #696969;
+}
+thead {
+  background-color: #1E90FF;
+}
+tbody tr:nth-child(odd) {
+  background-color: #FFFFFF;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #FFFAFA;
 }

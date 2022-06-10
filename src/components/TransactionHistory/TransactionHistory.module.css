@@ -1,0 +1,10 @@
+.transactionHistory {
+    table-layout: fixed;
+        width: 600px;
+        margin: auto;
+        border-collapse: collapse;
+      
+        text-align: center;
+};
+
+
